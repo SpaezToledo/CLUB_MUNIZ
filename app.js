@@ -8,7 +8,7 @@ app.listen(port,()=> console.log('Abriendo el servidor en 2000 port'));
 
 const public = path.resolve(__dirname, './public');
         
-
+app.use(express.static(path.join(__dirname, "js")))
 
 
 app.use(express.static(public));
