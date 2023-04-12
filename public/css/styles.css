@@ -42,7 +42,7 @@ text-align: center;
     display: none;
 }
 
-#scroll {
+scroll {
  position: relative;
  bottom: 3vh;
 }

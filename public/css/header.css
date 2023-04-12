@@ -1,0 +1,158 @@
+/* TopHeader */
+#topHeader{
+    width: 100vw;
+    height: 20px;
+    background-color: #CA1010;
+}
+
+#topHeader{
+    position:relative;
+    text-align: center;
+   
+}
+
+
+
+/* items */
+.fa-bolt,
+.fa-phone,
+.fa-envelope,
+#mail{
+  position: relative;
+  color: white;
+  bottom: 2px;
+  
+}
+
+.fa-phone{
+  right: 4.8em;
+}
+.fa-envelope{
+  right: 4.6em;
+}
+#mail{
+  left: 4em;
+  bottom:3.3vh;
+}
+.fa-bolt{
+    right:8em;
+}
+
+@media (min-width: 769px) {
+    #mail, .fa-envelope, .fa-phone {
+        margin-left: 30em;        
+       
+    }
+    #mail{
+        bottom: 3.2em;
+    } 
+    .fa-phone{
+        right: 80px
+    }
+    .fa-envelope{
+        bottom: 1.6em;
+        right: 3em;
+    }
+    
+
+}
+ 
+@media (min-width: 1015px) {
+    #mail, .fa-envelope, .fa-phone {
+        margin-left: 40em;        
+       
+    }
+    #mail{
+        bottom: 3.2em;
+    } 
+    .fa-phone{
+        right:5.5em
+    }
+    .fa-envelope{
+        bottom: 1.6em;
+        right: 3.3em
+    }
+    .fa-bolt{
+        right: 10em;
+    }
+}
+
+
+
+@media (min-width: 1335px) {
+    #mail, .fa-envelope, .fa-phone {
+        margin-left: 60em;        
+       
+    }
+    #mail{
+        bottom: 3.2em;
+    } 
+    .fa-phone{
+        right:5.5em
+    }
+    .fa-envelope{
+        bottom: 1.6em;
+        right: 3.3em
+    }
+    .fa-bolt{
+        right: 10em;
+    }
+}
+
+/* Header */
+#mainHeader{
+  display: flex;
+  background-color: black;
+  height: 10vh;
+}
+
+#mainHeader img {
+  position: relative;
+  left: 94vh;
+  display: flex;
+  align-items: center;
+ margin-top: 10px;
+
+}
+
+#mainHeader ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 0 4% ;
+
+
+}
+
+#mainHeader a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: Arial,sans-serif;
+  font-weight: 600;
+  line-height: 1.618;
+  position: relative;
+  top: 5px;
+  
+}
+
+
+
+
+
+#mainHeader li {
+width: 5em;
+position: relative;
+left: 42vh;
+display: flex;
+
+} 
+
+#oneL li{
+  width:7em;
+}
+
+#twoL li{
+  width:7em;
+  
+}
