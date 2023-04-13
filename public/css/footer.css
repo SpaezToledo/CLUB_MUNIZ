@@ -21,7 +21,7 @@ justify-content: center;
     position: relative;
  display: grid;
 
-    width:42.6vh;
+    width:43vh;
     background-color: #A21F24;
     height: 110vh;
     bottom: 44em; 
@@ -35,7 +35,7 @@ justify-content: center;
 
 #secondBackgroundFooter{
     position: relative;
-    width:42.6vh;
+    width:43vh;
     background-color:#6C1115;
     height: 35vh;
    bottom: 80em;
