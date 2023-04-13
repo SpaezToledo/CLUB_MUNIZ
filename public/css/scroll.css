@@ -1,0 +1,20 @@
+/*partidos*/
+#scroll{
+position: relative;
+bottom: 73em;
+}
+
+
+#scrollTv
+{
+    position: relative;
+    bottom: 75em;
+}
+#redes{
+    position: relative;
+    bottom:12em ;
+}
+
+#contactScroll{
+    position: relative;
+}

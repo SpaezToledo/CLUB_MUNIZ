@@ -12,7 +12,7 @@
     text-align: justify;
     position: relative;
     
-bottom: 40em;
+bottom: 50em;
     font-family: sans-serif;
     font-weight: 600;
 }
@@ -39,7 +39,7 @@ bottom: 40em;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
-    bottom: 39em;
+    bottom: 50em;
     font-family: sans-serif;
     font-weight: 600;
     height: 100vh;
@@ -62,7 +62,7 @@ text-decoration: underline
     text-align: center;
     position: relative;
    
-    bottom:57em;
+    bottom:69em;
     font-family: sans-serif;
     font-weight: 600;
     height: 39vh;
