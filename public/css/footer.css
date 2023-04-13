@@ -18,7 +18,7 @@ justify-content: center;
     width:42.6vh;
     background-color: #A21F24;
     height: 85vh;
-    bottom: 38em; 
+    bottom: 44em; 
     z-index:2;  
 }
 
@@ -30,7 +30,7 @@ justify-content: center;
     width:42.6vh;
     background-color:#6C1115;
     height: 35vh;
-   bottom: 68.3em
+   bottom: 74.3em
 }
 
 
@@ -102,7 +102,7 @@ justify-content: center;
     position: relative;
    
     width: 30vh;
-    bottom:75em;
+    bottom:82em;
     z-index:3;
 }
 
@@ -112,7 +112,7 @@ justify-content: center;
     background-color: white;
     width: 100vh;
     height: 2px;
-    bottom:72em;
+    bottom:80em;
     
     z-index:3;
     
@@ -122,7 +122,7 @@ justify-content: center;
 
 
 #sponsor{
-    bottom: 66em;
+    bottom: 74em;
     
     z-index:3;
     position: relative;
@@ -136,7 +136,7 @@ justify-content: center;
     font-weight: 800;
     letter-spacing: 0;
     line-height: 44px;
-bottom: 44em;
+bottom: 48em;
     z-index: 3;
     position: relative;
  

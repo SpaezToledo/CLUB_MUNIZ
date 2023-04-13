@@ -1,13 +1,14 @@
 .Historia{
-    position: relative;
+  
     display: grid;
-    justify-items: center;
+
+
   
 }
 #history{
     display: flex;
     flex-wrap: wrap;
-    grid-column-start: 1;
+   justify-content: center;
     text-align: justify;
     position: relative;
     
@@ -17,70 +18,60 @@ bottom: 40em;
 }
 
 
+
+
 #titleHistory {
  
     position: relative;
-   grid-column-start: 1;
+
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
  text-decoration: underline ;
 
 }
+
+
 
 
 #players{
     display: flex;
     flex-wrap: wrap;
-    
-    text-align: justify;
     position: relative;
-    
-    bottom: 45em;
+    justify-content: center;
+    bottom: 39em;
     font-family: sans-serif;
     font-weight: 600;
     height: 100vh;
+    align-content: flex-start
 }
 
 #titlePlayers {
-    display: flex;
+    
     position: relative;
-    top: 3em;
+
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
- text-decoration: underline ;
+text-decoration: underline
 }
 
-#subtitlePlayers{
-    display: flex;
-    position: relative;
-   
-    top: 6vh;
-    font-family: sans-serif;
-    text-decoration: underline ;
-
-}
 
 
 #datesClub{
-    display: flex;
-    flex-wrap: wrap;
-   
-    text-align: justify;
+    text-align: center;
     position: relative;
    
-    bottom: 52em;
+    bottom:57em;
     font-family: sans-serif;
     font-weight: 600;
     height: 39vh;
 }
 
 #titleDatesClub{
-    display: flex;
-    position: relative;
  
-    top:vh;
+    position: relative;
+   
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
@@ -88,11 +79,7 @@ bottom: 40em;
 }
 
 #titleTotal{
-    display: flex;
-    
-    position: relative;
-    
-    
+   
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
@@ -101,8 +88,7 @@ bottom: 40em;
 
 #total{
     position: relative;
-   
-    
+ 
 }
 
 

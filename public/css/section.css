@@ -116,7 +116,7 @@ width: 10em;
     opacity: .7;
     grid-column-start: 1;
     border: 2px solid #D21018;
-    bottom: 60em;
+    bottom: 61.5em;
 }
 
 @media (min-width: 1335px){
