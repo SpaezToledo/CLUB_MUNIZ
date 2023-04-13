@@ -1,0 +1,56 @@
+.carousel{
+    background-color: black;
+    height: 38vh;
+    width: 42.6vh;
+    bottom: 15vh;
+    padding-top: 10vh;
+    opacity: 0.8;
+   
+}
+.carousel-inner{
+    opacity: 20;
+    height: 10em;
+}
+
+
+.carousel-control-prev-icon{
+position: relative;
+left: 6vh;
+
+}
+
+
+.carousel-control-next-icon{
+    position: relative;
+right: 6vh;
+}
+
+.d-block {
+    position: relative;
+    width: 12vh;
+    display:flex;
+    left: 15.6vh;
+    top: 2.8vh;
+}
+.carousel-control-prev-icon{
+    width: 40px;
+}
+#redes{
+    position:relative;
+    bottom: 15vh;
+}
+
+
+.grid-carro{
+    position: relative;
+    display: grid;
+    bottom: 48em;
+    
+}
+
+#carouselExampleIndicators{
+    position: relative;
+    justify-items: center;
+    grid-column-start: 2;
+
+}

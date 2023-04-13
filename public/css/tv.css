@@ -1,0 +1,74 @@
+#yt{
+    position: relative;
+    bottom: 58em;
+}
+
+.grid-tv{
+    position: relative;
+    display: grid;
+    justify-items: center;
+}
+
+
+iframe{
+    position: relative;
+    grid-column-start: 1;
+    width: 21em;
+}
+
+#titleTv {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+
+}
+
+
+
+button {
+    position: relative;
+    display: inline-block;
+   
+    background-color: black;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    height: 3em;
+    letter-spacing: 4px;
+
+}
+
+button {
+    background: linear-gradient(90deg, transparent, #D21018);
+    animation: btn-anim1 1s linear infinite;
+    box-shadow: 0 0 20px #D21018;
+top: 1.5em;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #D21018, black);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #D21018,
+                0 0 25px #D21018,
+                0 0 50px #D21018,
+                0 0 100px #D21018;
+  }
+
+button {
+    position: relative;
+    display: inline-block;
+border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 3;
+    
+}

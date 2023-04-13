@@ -38,7 +38,7 @@ width: 10em;
 }
 
 #lastResult{
-    bottom: 96em;
+    bottom: 70em;
     position: relative;
 
     
@@ -64,6 +64,60 @@ width: 10em;
 }
 
 
+
+
+
+#nextMatch{
+    position: relative;
+    bottom: 65em;
+}
+
+.detail{
+    font-weight: 500;
+}
+
+.stadium{
+    font-weight: 600;
+}
+
+
+.grid-result2{
+    position: relative;
+    display: grid;
+    justify-items: center;
+  
+}
+
+
+
+.grid-text2{
+    position: relative;
+    display: grid;
+    font-family:  Sans-serif;
+    justify-items: center;
+    line-height: 0.6;
+    top:1em;
+}
+
+
+
+
+
+
+.grid-team{
+    position: relative;
+    display: grid;
+    justify-items: center;
+}
+
+#team{
+    position: relative;
+   width: 20.3em;
+    opacity: .7;
+    grid-column-start: 1;
+    border: 2px solid #D21018;
+    bottom: 60em;
+}
 
 @media (min-width: 1335px){
    #shield{

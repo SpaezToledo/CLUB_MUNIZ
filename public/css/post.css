@@ -1,0 +1,58 @@
+.grid-post{
+    position: relative;
+    display: grid;
+    bottom: 52em;
+
+}
+
+#post{
+    position: relative;
+    text-align: center;
+}
+#posting {
+    position:relative   ;
+   width: 20em;
+   height: 24.5em;
+  
+}
+
+
+#postTitle{
+    position: relative;
+    top: 0vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+
+
+.grid-pib{
+    position: relative;
+    display: grid;
+    bottom: 52em;
+}
+
+#postingInf{
+    position:relative   ;
+    top: 10vh;
+    height: 24.5em;
+    width: 43vh;
+    grid-column-start: 2
+}
+
+#infTitle{
+    position: relative;
+    top: 10vh;
+   
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+#inferiores{
+    position: relative;
+    top: 8vh;
+}
