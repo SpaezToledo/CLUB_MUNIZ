@@ -1,0 +1,73 @@
+#shield{
+    position: relative;
+    width: 15em;
+    display: flex;
+    margin: 0 auto;
+    bottom: 36em;
+}
+
+#title{
+    text-align: center;
+    font-size: 40px;
+    font-family:  Sans-serif;
+    font-weight: 900;
+    position: relative;
+    bottom: 14.5em;
+    -webkit-text-stroke: 1px #D21018;
+}
+
+.grid-ray{
+    position: relative;
+ display: grid;
+
+}
+
+
+#ray{
+grid-column-start: 2;
+position: relative;
+bottom: 36.5em;
+width: 10em;
+}
+
+.grid-result{
+    position: relative;
+    display: grid;
+    justify-items: center;
+  
+}
+
+#lastResult{
+    bottom: 96em;
+    position: relative;
+
+    
+}
+
+.grid-text{
+    position: relative;
+    display: grid;
+    font-family:  Sans-serif;
+    justify-items: center;
+    line-height: 0.6;
+    top:1em;
+}
+
+#result{
+    font-weight: 800;
+}
+#detail{
+    font-weight: 500;
+}
+#stadium{
+    font-weight: 600;
+}
+
+
+
+@media (min-width: 1335px){
+   #shield{
+    width: 25em;
+   }
+   
+}

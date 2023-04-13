@@ -28,15 +28,90 @@
   right: 4.8em;
 }
 .fa-envelope{
-  right: 4.6em;
+  right: 4.7em;
 }
 #mail{
-  left: 4em;
-  bottom:3.3vh;
+  left: 3.6em;
+  bottom:3.4vh;
+
 }
 .fa-bolt{
     right:8em;
 }
+
+
+
+
+
+
+
+/* Header */
+#mainHeader{
+    display: flex;
+    background-color: black;
+    height: 20vh;
+    align-items: center;
+  justify-content: center;
+  
+  }
+
+  .ss{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0.5em;
+  }
+  
+  .escudeto2 {
+    position: relative;
+    display: flex;
+  margin-left: 29em;
+    align-items: center;
+
+  }
+  
+  #mainHeader ul {
+    display: flex;
+    list-style-type: none;
+   flex-direction: column;
+    padding: 0em 5em 0em 3em; 
+  
+  
+  }
+  
+  #mainHeader a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.618;
+    position: relative;
+    top: 5px;
+    
+  }
+  
+  
+  
+  
+  
+  #mainHeader li {
+
+  position: relative;
+
+  display: flex;
+  
+  } 
+  
+  #oneL li{
+    display: flex;
+    right: 14em;
+  }
+  
+  #twoL li{
+    width:7em;
+    right: 13em;
+  }
 
 @media (min-width: 769px) {
     #mail, .fa-envelope, .fa-phone {
@@ -45,15 +120,80 @@
     }
     #mail{
         bottom: 3.2em;
+        left: 4.5em;
     } 
     .fa-phone{
         right: 80px
     }
     .fa-envelope{
         bottom: 1.6em;
-        right: 3em;
+        right: 2.8em;
     }
     
+
+
+    #mainHeader{
+        display: flex;
+        background-color: black;
+        height: 11vh;
+        align-items: center;
+      justify-content: center;
+      
+      }
+    
+
+      #mainHeader ul {
+        display: flex;
+        list-style-type: none;
+       flex-direction: row;
+        padding: 0em 5em 0em 3em; 
+      
+      
+      }
+      
+      #mainHeader a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-family: Arial,sans-serif;
+        font-weight: 600;
+        line-height: 1.618;
+        position: relative;
+        top: 5px;
+        
+      }
+      
+      .escudeto2 {
+        position: relative;
+        display: flex;
+      margin-left: 62.5em;
+        align-items: center;
+    
+      }
+      
+      
+      
+      #mainHeader li {
+      width: 2em;
+      position: relative;
+    
+      display: flex;
+      
+      } 
+      
+      #oneL li{
+        display: flex;
+        right: 29em;
+        width:7em;
+      }
+      
+      #twoL li{
+        width:7em;
+        right: 29em;
+      }
+    
+
+
 
 }
  
@@ -70,7 +210,7 @@
     }
     .fa-envelope{
         bottom: 1.6em;
-        right: 3.3em
+        right: 3.1em
     }
     .fa-bolt{
         right: 10em;
@@ -97,62 +237,20 @@
     .fa-bolt{
         right: 10em;
     }
+
+    #mainHeader ul {
+        position: relative;
+        right: 2em;
+      
+      
+      }
+      #twoL li{
+        right:26.4em;
+      }
+    
+      .escudeto2 {
+       margin-right: 0em;
+    
+      }
 }
 
-/* Header */
-#mainHeader{
-  display: flex;
-  background-color: black;
-  height: 10vh;
-}
-
-#mainHeader img {
-  position: relative;
-  left: 94vh;
-  display: flex;
-  align-items: center;
- margin-top: 10px;
-
-}
-
-#mainHeader ul {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  padding: 0 4% ;
-
-
-}
-
-#mainHeader a {
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-family: Arial,sans-serif;
-  font-weight: 600;
-  line-height: 1.618;
-  position: relative;
-  top: 5px;
-  
-}
-
-
-
-
-
-#mainHeader li {
-width: 5em;
-position: relative;
-left: 42vh;
-display: flex;
-
-} 
-
-#oneL li{
-  width:7em;
-}
-
-#twoL li{
-  width:7em;
-  
-}
