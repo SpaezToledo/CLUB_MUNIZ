@@ -72,3 +72,51 @@ border-radius: 5px;
     z-index: 3;
     
 }
+
+@media (min-width: 800px) {
+    #yt{
+        position: relative;
+        bottom: 84em;
+    }
+
+    
+    iframe{
+        position: relative;
+        grid-column-start: 1;
+        width: 48em;
+        height: 40em
+    }
+    
+    #titleTv { 
+        font-size: 30px;
+    }
+
+    button{
+        position: relative;
+        top: 5em;
+    }
+}
+
+@media (min-width: 1335px){
+    #yt{
+        position: relative;
+        bottom: 84em;
+    }
+
+    
+    iframe{
+        position: relative;
+        grid-column-start: 1;
+        width: 80em;
+        height: 40em
+    }
+    
+    #titleTv { 
+        font-size: 30px;
+    }
+
+    button{
+        position: relative;
+        top: 5em;
+    }
+}

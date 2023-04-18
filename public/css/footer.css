@@ -24,7 +24,7 @@ justify-content: center;
     width:43vh;
     background-color: #A21F24;
     height: 110vh;
-    bottom: 44em; 
+    bottom: 58em; 
     z-index:2;  
 }
 
@@ -38,7 +38,7 @@ justify-content: center;
     width:43vh;
     background-color:#6C1115;
     height: 35vh;
-   bottom: 80em;
+   bottom: 90.8em;
    z-index: 2;
 }
 
@@ -111,7 +111,7 @@ justify-content: center;
     position: relative;
    
     width: 30vh;
-    bottom:0em;
+    bottom:14em;
     z-index:3;
 }
  #top{
@@ -124,7 +124,7 @@ justify-content: center;
     background-color: white;
     width: 100vh;
     height: 2px;
-    bottom:86em;
+    bottom:100em;
     
     z-index:3;
     
@@ -134,7 +134,7 @@ justify-content: center;
 
 
 #sponsor{
-    bottom: 80em;
+    bottom: 92em;
     
     z-index:3;
     position: relative;
@@ -148,7 +148,7 @@ justify-content: center;
     font-weight: 800;
     letter-spacing: 0;
     line-height: 44px;
-bottom: 51.8em;
+bottom: 58.8em;
     z-index: 3;
     position: relative;
  
@@ -178,3 +178,193 @@ bottom: 51.8em;
       
 }
 
+@media (min-width: 800px){
+    footer{
+        position: relative;
+        bottom: 26em;
+    }
+    
+    #firstBackgroundFooter{
+
+
+    
+        width:90.8vh;
+        background-color: #A21F24;
+        height: 110vh;
+        bottom: 54em; 
+        z-index:2;  
+    }
+    
+    #sbf{
+        position: relative;
+        bottom: 95em;
+    }
+    
+    #secondBackgroundFooter{
+        position: relative;
+        width:90.8vh;
+        background-color:#6C1115;
+        height: 30vh;
+       bottom: 86.8em;
+       z-index: 2;
+    }
+    
+    
+    
+    #copy {
+        position: relative;
+        left: 1em;
+        display: flex;
+        justify-content: space-between;
+        width: 26em;
+        font-family: Roboto,sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        color: white;
+        top: 3em;
+    }
+    
+    
+    #developing {
+        position: relative;
+        top: 4.8em;
+       left: 37em;
+        
+    }
+    
+    
+    
+    #followUs{
+
+  
+        position: relative;
+        top: 8.8vh;
+        left: 2.5vh;
+    }
+    
+    .fa-youtube,
+    .fa-instagram,
+    .fa-square-facebook,
+    .fa-twitter,
+    .fa-tiktok{
+        color: white;
+        font-size: 27px;
+        position: relative;
+        left:14vh;
+        width: 4.8vh;
+        top: 4vh;
+    }
+    
+    
+    #contactUs{
+    
+        font-size: 14px;
+      
+        position: relative;
+        top: 1vh;
+        left: 42vh;
+       
+    }
+    
+}
+
+@media (min-width: 1335px){
+    footer{
+        position: relative;
+        bottom: 24em;
+    }
+    
+    #firstBackgroundFooter{
+
+
+    
+        width:114.8vh;
+        background-color: #A21F24;
+        height: 110vh;
+        bottom: 65em; 
+        z-index:2;  
+    }
+    
+  
+    #secondBackgroundFooter{
+        position: relative;
+        width:114.8vh;
+        background-color:#6C1115;
+        height: 30vh;
+       bottom: 97.8em;
+       z-index: 2;
+    }
+ 
+    
+    #top{
+        bottom: 100em;
+    }
+    #separatorLineFooter{
+        bottom: 110em;
+    }
+
+    #sponsorFont{
+        bottom: 64em;
+    }
+    #sponsor{
+        bottom: 100em;
+    }
+    
+    
+    #copy {
+        position: relative;
+        left: 1em;
+        display: flex;
+        justify-content: space-between;
+        width: 26em;
+        font-family: Roboto,sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        color: white;
+        top: 3em;
+    }
+    
+    
+    #developing {
+        position: relative;
+        top: 4.8em;
+       left: 37em;
+        
+    }
+    
+    
+    
+    #followUs{
+
+  
+        position: relative;
+        top: 8.8vh;
+        left: 2.5vh;
+    }
+    
+    .fa-youtube,
+    .fa-instagram,
+    .fa-square-facebook,
+    .fa-twitter,
+    .fa-tiktok{
+        color: white;
+        font-size: 27px;
+        position: relative;
+        left:14vh;
+        width: 4.8vh;
+        top: 4vh;
+    }
+    
+    
+    #contactUs{
+    
+        font-size: 14px;
+      
+        position: relative;
+        top: 1vh;
+        left: 42vh;
+       
+    }
+}

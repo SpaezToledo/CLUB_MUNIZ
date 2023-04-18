@@ -56,3 +56,35 @@
     position: relative;
     top: 8vh;
 }
+
+@media (min-width: 800px){
+    .grid-post{
+        position: relative;
+        display: grid;
+        bottom: 68em;
+    
+    }
+    #posting {
+        position:relative   ;
+       width: 48em;
+       height: 52em;
+      
+    }
+    
+
+    .grid-pib{
+        bottom: 70em;
+    }
+    
+    #postingInf{
+        top: 10vh;
+        height: 52em;
+        width: 48em;
+    }
+
+    #infTitle{
+        left: 7.5em;
+    }
+
+  
+}

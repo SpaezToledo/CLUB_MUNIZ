@@ -8,7 +8,7 @@
 background-color: black;
 height: 50vh;
 position: relative;
-bottom: 58em;
+bottom: 80em;
 width: 43vh;
 
 z-index: 3;
@@ -77,4 +77,53 @@ z-index: 1;
 #contactScroll{
     position: relative;
     top:20vh;
+}
+
+@media (min-width: 800px){
+    #contactBox{
+    bottom: 88em;
+    width: 50em;
+    height: 22em;
+    } 
+
+
+    #contactP{
+        position: relative;
+        
+        font-family: sans-serif;
+        font-weight: 700;
+      width: 26em;
+      bottom: 1.9em;
+      left: 6em;
+    }
+    
+    
+    #emailP {
+        position: relative;
+        bottom: 1.9em;
+      left: 4em;
+    }
+    
+
+    
+    #circle {
+        padding: 0.6vh;
+        margin: 0.5;
+        width: 1px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #CA1010;
+    z-index: 1;
+        position: relative;
+        top: 2vh;
+        right: 2.5vh;
+    }
+}
+@media (min-width: 1335px){
+    #contactBox{
+        bottom: 98em;
+        width: 64em;
+        } 
+    
 }

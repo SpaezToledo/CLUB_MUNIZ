@@ -118,10 +118,119 @@ width: 10em;
     border: 2px solid #D21018;
     bottom: 61.5em;
 }
+@media (min-width: 769px) {
+
+    #shield{
+       width: 20em;
+    }
+    #title{
+        font-size: 4.1em;
+        bottom: 8.8em;
+    }
+    #ray{
+        width: 12.5em;
+        bottom: 35em;
+        }
+        
+}
+
+@media (min-width: 800px) {
+    #lastImg{
+        width: 25em;
+       }
+       #aDefinir{
+        width: 25em;
+       }
+       #result{
+        font-size: 22px
+       }
+    #detail{
+        font-size: 20px
+    }
+    #lastResult{
+        position: relative;
+        display: grid;
+        grid-column-start:2;
+        right:14em;
+        
+    }
+    
+    
+    #nextMatch{
+        position: relative;
+        display: grid;
+        grid-column-start:2;
+       left: 14em;
+        bottom: 92em;
+    }
+    
+    #next{
+        position: relative;
+        bottom: 0.7em;
+    }
+    .detail{
+        font-size: 22px;
+    }
+    
+    #team{
+        position: relative;
+       width: 48em;
+        opacity: .7;
+        grid-column-start: 1;
+        border: 2px solid #D21018;
+        bottom: 86.5em;
+        height: 60vh;
+    }
+}
 
 @media (min-width: 1335px){
    #shield{
     width: 25em;
    }
-   
+   #lastImg{
+    width: 25em;
+   }
+   #aDefinir{
+    width: 25em;
+   }
+   #result{
+    font-size: 22px
+   }
+#detail{
+    font-size: 20px
+}
+#lastResult{
+    position: relative;
+    display: grid;
+    grid-column-start:2;
+    right:14em;
+    
+}
+
+
+#nextMatch{
+    position: relative;
+    display: grid;
+    grid-column-start:2;
+   left: 14em;
+    bottom: 92em;
+}
+
+#next{
+    position: relative;
+    bottom: 0.7em;
+}
+.detail{
+    font-size: 22px;
+}
+
+#team{
+    position: relative;
+   width: 80.3em;
+    opacity: .7;
+    grid-column-start: 1;
+    border: 2px solid #D21018;
+    bottom: 86.5em;
+    height: 60vh;
+}
 }
