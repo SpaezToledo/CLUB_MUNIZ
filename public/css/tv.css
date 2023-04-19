@@ -1,6 +1,6 @@
 #yt{
     position: relative;
-    bottom: 58em;
+    top: 24em;
 }
 
 .grid-tv{
@@ -73,10 +73,10 @@ border-radius: 5px;
     
 }
 
-@media (min-width: 800px) {
+@media (min-width: 769px) {
     #yt{
         position: relative;
-        bottom: 84em;
+        top: 30em;
     }
 
     
@@ -95,6 +95,15 @@ border-radius: 5px;
         position: relative;
         top: 5em;
     }
+}
+@media (min-width: 800px) {
+    #yt{
+        position: relative;
+        top: 6em;
+    }
+
+    
+  
 }
 
 @media (min-width: 1335px){

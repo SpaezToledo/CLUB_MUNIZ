@@ -16,6 +16,8 @@
 }
 
 
+
+
 .loadbg{
 margin: auto;
 height: 100vh;
@@ -25,7 +27,7 @@ height: 100vh;
 .position-escudeto{
   position: relative;
   z-index: 1;
-bottom: 27em;
+bottom: 35em;
 text-align: center;
 }
 .escudeto{
@@ -35,38 +37,18 @@ text-align: center;
 }
 
 
-
-/* html{
-    scroll-behavior: smooth;
+@media (min-width: 1600px){
+  body {
+    background-color: red;
+    background-image: linear-gradient(to right, #D21018 0%, #D21018 16em, transparent 10em, transparent calc(100% - 16em), #D21018 calc(100% - 16em), #D21018 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
 
-scroll {
- position: relative;
- bottom: 3vh;
-}
-
-#background{
-    position: absolute;
-    background-color: #D21018;
-    width: 30vh;
-    height: 528.8rem;
-    scroll-behavior: smooth;
-    top: 12.1vh;
-    }
-    
-    #backgroundRight{
-    position: absolute;
-    background-color: #D21018;
-    width: 30vh;
-    height: 528.8rem;
-    left: 85%;
-    top: 12.1vh;
-    }
-    
+/* 
 
 
 #lineRed{

@@ -2,14 +2,14 @@
     background-color: black;
     height: 38vh;
     width: 42.6vh;
-    bottom: 12vh;
+
     padding-top: 10vh;
     opacity: 0.8;
    
 }
 .carousel-inner{
     opacity: 20;
-    height: 10em;
+    height: 12em;
     position: relative;
   
 }
@@ -39,14 +39,14 @@ right: 6vh;
 }
 #redes{
     position:relative;
-    bottom: 15vh;
+   
 }
 
 
 .grid-carro{
     position: relative;
     display: grid;
-    bottom: 48em;
+    top: 28em;
     
 }
 
@@ -57,10 +57,10 @@ right: 6vh;
 
 }
 
-@media (min-width: 800px){
+@media (min-width: 769px){
     .carousel{
         width:50em;
-        bottom: 26em;
+        top: 10em;
     }
     .d-block{
         position: relative;
@@ -82,10 +82,16 @@ right:10em;
     
 }
 
+@media (min-width: 800px){
+.carousel{
+    top: -10em;
+}
+}
+
 @media (min-width: 1335px){
     .carousel{
         width:80em;
-        bottom: 26em;
+        
     }
     .d-block{
         position: relative;
@@ -104,4 +110,5 @@ right:16em;
         position: relative;
         left: 16em;
     }
+    
 }

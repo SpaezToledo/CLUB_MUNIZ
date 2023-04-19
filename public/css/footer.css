@@ -1,25 +1,24 @@
 footer{
     position: relative;
-    bottom: 14em;
+   top: 91em;
    
 }
 
 .grid-footer{
-    position: relative;
-
- 
+  
 }
 
 .gridf-center{
    display: grid;
 justify-items: center;
 justify-content: center;
+
 }
 
 #firstBackgroundFooter{
-
+    
     position: relative;
- display: grid;
+
 
     width:43vh;
     background-color: #A21F24;
@@ -28,10 +27,7 @@ justify-content: center;
     z-index:2;  
 }
 
-#sbf{
-    position: relative;
-    bottom: 95em;
-}
+
 
 #secondBackgroundFooter{
     position: relative;
@@ -181,7 +177,8 @@ bottom: 58.8em;
 @media (min-width: 800px){
     footer{
         position: relative;
-        bottom: 26em;
+ top:90.5em;
+
     }
     
     #firstBackgroundFooter{
@@ -191,21 +188,18 @@ bottom: 58.8em;
         width:90.8vh;
         background-color: #A21F24;
         height: 110vh;
-        bottom: 54em; 
+        
         z-index:2;  
     }
     
-    #sbf{
-        position: relative;
-        bottom: 95em;
-    }
+   
     
     #secondBackgroundFooter{
         position: relative;
         width:90.8vh;
         background-color:#6C1115;
         height: 30vh;
-       bottom: 86.8em;
+       
        z-index: 2;
     }
     
@@ -272,17 +266,16 @@ bottom: 58.8em;
 @media (min-width: 1335px){
     footer{
         position: relative;
-        bottom: 24em;
+     
     }
     
     #firstBackgroundFooter{
 
 
-    
+    height: 125vh;
         width:114.8vh;
         background-color: #A21F24;
-        height: 110vh;
-        bottom: 65em; 
+      top: -54em;
         z-index:2;  
     }
     
@@ -292,7 +285,7 @@ bottom: 58.8em;
         width:114.8vh;
         background-color:#6C1115;
         height: 30vh;
-       bottom: 97.8em;
+     top: -87em;
        z-index: 2;
     }
  
@@ -301,14 +294,14 @@ bottom: 58.8em;
         bottom: 100em;
     }
     #separatorLineFooter{
-        bottom: 110em;
+        top: -105em;
     }
 
     #sponsorFont{
-        bottom: 64em;
+       top: -60em;
     }
     #sponsor{
-        bottom: 100em;
+       
     }
     
     
@@ -367,4 +360,27 @@ bottom: 58.8em;
         left: 42vh;
        
     }
+}
+
+@media (min-width: 1600px){
+    #firstBackgroundFooter{
+
+top: -52.6em;
+    
+        width:143.5vh;
+  
+    }
+    
+  
+    #secondBackgroundFooter{
+        position: relative;
+        width:143.5vh;
+        background-color:#6C1115;
+        height: 30vh;
+       
+       z-index: 2;
+    }
+ #developing{
+    left: 70em;
+ }
 }

@@ -8,7 +8,7 @@
 background-color: black;
 height: 50vh;
 position: relative;
-bottom: 80em;
+top: 24em;
 width: 43vh;
 
 z-index: 3;
@@ -81,7 +81,7 @@ z-index: 1;
 
 @media (min-width: 800px){
     #contactBox{
-    bottom: 88em;
+    
     width: 50em;
     height: 22em;
     } 
@@ -122,7 +122,7 @@ z-index: 1;
 }
 @media (min-width: 1335px){
     #contactBox{
-        bottom: 98em;
+        top: 14em;
         width: 64em;
         } 
     

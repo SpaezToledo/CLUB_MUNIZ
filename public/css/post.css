@@ -1,7 +1,7 @@
 .grid-post{
     position: relative;
     display: grid;
-    bottom: 52em;
+   top: 34em;
 
 }
 
@@ -32,7 +32,7 @@
 .grid-pib{
     position: relative;
     display: grid;
-    bottom: 60em;
+  top:26em ;
 }
 
 #postingInf{
@@ -56,12 +56,21 @@
     position: relative;
     top: 8vh;
 }
+@media (min-width: 769px){
+    .grid-pib{
+        top: 35em;
+    }
+   .grid-post{
+    position: relative;
+    top: 44em;
+   }
+}
 
 @media (min-width: 800px){
     .grid-post{
         position: relative;
         display: grid;
-        bottom: 68em;
+        top: 26em;
     
     }
     #posting {
@@ -73,7 +82,7 @@
     
 
     .grid-pib{
-        bottom: 70em;
+        top: 20em;
     }
     
     #postingInf{
