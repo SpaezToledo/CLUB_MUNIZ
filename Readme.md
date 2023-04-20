@@ -1,1 +1,8 @@
-MOBILE FIRST TESTING 
+# MUÑIZ
+Proyecto dedicado al Club Social Cultural y Deportivo Muñiz realizado con metodo mobile first.
+<img src="https://github.com/SpaezToledo/Muniz/blob/main/public/img/Escudo.png" width="300"/>
+
+
+> ## Run:
+> ###### -npm i
+> ###### -npm test
