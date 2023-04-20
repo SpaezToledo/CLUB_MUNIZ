@@ -47,7 +47,31 @@ text-align: center;
   }
 }
 
+.fixed-element{
+  position: fixed;
+  top: 28em;
+  width: 70px;
+  z-index: 999;
+  cursor: pointer;
+  pointer-events: auto;
+  right: 5em;
+  display: none ;
+} 
 
+.grid-element{
+  display: grid;
+  justify-items: end;
+}
+
+.fixed-element:hover{
+  opacity: 0.7;
+}
+
+@media (min-width: 200px) and (max-width:1500px) {
+  .fixed-element{
+    display: none !important;
+  }
+}
 /* 
 
 

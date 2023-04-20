@@ -33,6 +33,7 @@
     position: relative;
     display: grid;
   top:26em ;
+  justify-items:center
 }
 
 #postingInf{
@@ -40,12 +41,12 @@
     top: 10vh;
     height: 24.5em;
     width: 38vh;
-    grid-column-start: 2
+   
 }
 
 #infTitle{
     position: relative;
-    top: 10vh;
+    top: 3em;
    
     font-size: 30px;
     font-family: sans-serif;
@@ -55,6 +56,7 @@
 #inferiores{
     position: relative;
     top: 8vh;
+ 
 }
 @media (min-width: 769px){
     .grid-pib{
@@ -91,9 +93,7 @@
         width: 48em;
     }
 
-    #infTitle{
-        left: 7.5em;
-    }
+    
 
   
 }

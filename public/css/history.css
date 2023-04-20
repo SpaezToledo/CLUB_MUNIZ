@@ -51,24 +51,31 @@ top: 40em;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
-text-decoration: underline
+text-decoration: underline;
+
 }
 
+@media (min-width: 1035px) {
+    #titlePlayers{
+        margin-right: 2em;
+    }  
+}
 
 
 #datesClub{
     text-align: center;
     position: relative;
-   top: 10em;
+   top: 14em;
     font-family: sans-serif;
     font-weight: 600;
     height: 39vh;
+    
 }
 
 #titleDatesClub{
  
     position: relative;
-   
+
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
@@ -108,12 +115,16 @@ text-decoration: underline
         
         top: 20em;
     }
+    
 }
 
 @media (min-width:800px){
     .Historia{
         position: relative;
      bottom: 10em;   
+    }
+    #titlePlayers{
+        margin-bottom: 2em;
     }
 }
 @media (min-width: 1335px){
@@ -122,6 +133,10 @@ text-decoration: underline
         bottom:92em;
        
     }
+    #titlePlayers{
+        bottom: 2em;
+    }
+      
 }
 @media (min-width:1600px){
     #history{
@@ -132,5 +147,7 @@ text-decoration: underline
     #players{
         margin-left: 20em;
         margin-right: 20em;
+        
     }
+
 }
