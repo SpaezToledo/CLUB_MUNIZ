@@ -109,12 +109,16 @@ text-decoration: underline;
     #players{
         margin-left: 4em;
         margin-right: 4em;
-        top: 56em;
+        top: 50em;
+    }
+    #titlePlayers{
+        bottom: 0.5em;
     }
     #datesClub{
         
-        top: 20em;
+        top: 15em;
     }
+ 
     
 }
 
@@ -123,19 +127,20 @@ text-decoration: underline;
         position: relative;
      bottom: 10em;   
     }
-    #titlePlayers{
-        margin-bottom: 2em;
-    }
+   
+}
+
+@media (min-width:1105px){
+#players{
+    top: 52em;
+}
+#datesClub{
+    top: 14em;
+}
 }
 @media (min-width: 1335px){
-    #datesClub{
-       
-        bottom:92em;
-       
-    }
-    #titlePlayers{
-        bottom: 2em;
-    }
+  
+
       
 }
 @media (min-width:1600px){
@@ -149,5 +154,17 @@ text-decoration: underline;
         margin-right: 20em;
         
     }
-
+#datesClub{
+    top: 11em;
+}
+#titleDatesClub{
+    bottom:0.5em
+}
+#titleTotal{
+    position: relative;
+    top: 1em;
+}
+#total{
+    top:3em;
+}
 }
