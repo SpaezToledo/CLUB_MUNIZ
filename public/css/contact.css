@@ -10,8 +10,8 @@ height: 50vh;
 position: relative;
 top: 24em;
 width: 43vh;
-
 z-index: 3;
+box-shadow: 0 0 10px 2px #ff0000;
 } 
 
 #contact{

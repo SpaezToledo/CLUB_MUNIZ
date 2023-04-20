@@ -115,9 +115,14 @@ width: 10em;
    width: 20.3em;
     opacity: .7;
     grid-column-start: 1;
-    border: 2px solid #D21018;
     top: 16.5em;
+    border: 20px solid transparent;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, #ffffff, #ff0000);
+   
 }
+
+  
 @media (min-width: 769px) {
 
     #shield{
