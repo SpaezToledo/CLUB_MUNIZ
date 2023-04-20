@@ -4,6 +4,3 @@
      $("body").removeClass("hidden")
    }
   
-
-
-  
