@@ -121,12 +121,14 @@ text-decoration: underline;
 
 #Historia {
     display: none; /* Oculta el elemento por defecto */
+
+  
   }
   
   #Historia.mostrar {
     display: block; /* Muestra el elemento cuando se agrega la clase "mostrar" */
+   
   }
-
 
 @media (min-width:769px){
    
