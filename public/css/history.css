@@ -1,7 +1,6 @@
 .Historia{
-  
+    margin-bottom: -26em;
     display: grid;
-
 }
 #history{
     display: flex;
@@ -69,7 +68,7 @@ text-decoration: underline;
     font-family: sans-serif;
     font-weight: 600;
     height: 39vh;
-    
+    margin-top: -14em;
 }
 
 #titleDatesClub{
@@ -95,7 +94,38 @@ text-decoration: underline;
  
 }
 
+.buttonH{
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center; /* centra verticalmente */
+   
+}
 
+#mostrar-texto{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    top: 36.5em;
+    
+}
+
+#mostrar-texto:hover{
+    background-color: #f5f5f5;
+}
+
+#Historia {
+    display: none; /* Oculta el elemento por defecto */
+  }
+  
+  #Historia.mostrar {
+    display: block; /* Muestra el elemento cuando se agrega la clase "mostrar" */
+  }
 
 
 @media (min-width:769px){
@@ -116,10 +146,15 @@ text-decoration: underline;
     }
     #datesClub{
         
-        top: 15em;
+        margin-top: -3em;
     }
  
-    
+    #mostrar-texto{
+        top: 45.6em
+     }
+     #Historia{
+         margin-bottom: -30em;
+     }
 }
 
 @media (min-width:800px){
@@ -140,7 +175,12 @@ text-decoration: underline;
 }
 @media (min-width: 1335px){
   
-
+    #mostrar-texto{
+       top: 30.5em
+    }
+    #Historia{
+        margin-bottom: -30em;
+    }
       
 }
 @media (min-width:1600px){
@@ -166,5 +206,8 @@ text-decoration: underline;
 }
 #total{
     top:3em;
+}
+#Historia{
+    margin-bottom: -30em;
 }
 }

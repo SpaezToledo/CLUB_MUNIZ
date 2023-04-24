@@ -8,10 +8,11 @@
 background-color: black;
 height: 50vh;
 position: relative;
-top: 24em;
+top: 33em;
 width: 43vh;
 z-index: 3;
 box-shadow: 0 0 10px 2px #ff0000;
+margin-top: 5em;
 } 
 
 #contact{
@@ -95,13 +96,18 @@ z-index: 1;
         display: none;
     }
 }
+@media (min-width:769px){
+    #contactBox{
+        margin-top: 14em;
+    }
+}
 @media (min-width: 800px){
    
     #contactBox{
     
     width: 47em;
     height: 22em;
-    top: 22em;
+    top: 30em;
     } 
 
 
@@ -137,19 +143,38 @@ z-index: 1;
         top: 2vh;
         right: 2.5vh;
     }
+    .aniversario{
+        top: 36em;
+       margin-top: 5em;
+    }
+    #mostrar-texto{
+        top: 34.8em
+     }
+     #Historia{
+         margin-bottom: -34em;
+         margin-top: em;
+     }
 }
 @media (min-width: 1335px){
     #contactBox{
-        top: 25em;
+        top:34em;
         width: 64em;
         } 
         .aniversario{
         width: 64em ;
+        top: 32em;
+        }
+        #mostrar-texto{
+            top: 33em;
         }
 }
 
 @media (min-width: 1600px){
     .aniversario {
         width: 70em;
+        top: 36em;
+    }
+    #mostrar-texto{
+        top: 36em;
     }
 }
