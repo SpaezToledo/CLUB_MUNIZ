@@ -1,5 +1,5 @@
 # MUÑIZ
-Proyecto dedicado al Club Social Cultural y Deportivo Muñiz realizado con metodo mobile first.
+Proyecto dedicado al Club Social Cultural y Deportivo Muñiz realizado con HTML, CSS (metodo mobile first) Y JS.
 <img src="https://github.com/SpaezToledo/Muniz/blob/main/public/img/Escudo.png" width="300"/>
 
 
