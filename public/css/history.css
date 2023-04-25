@@ -15,6 +15,16 @@ top: 40em;
 }
 
 
+#titleEstadium{
+ 
+    position: relative;
+
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+ text-decoration: underline ;
+
+}
 
 
 #titleHistory {
@@ -149,32 +159,35 @@ text-decoration: underline;
     }
     #datesClub{
         
-        margin-top: -3em;
+        margin-top: 14em;
     }
  
     #mostrar-texto{
         top: 45.6em
      }
      #Historia{
-         margin-bottom: -30em;
+         margin-bottom: -50em;
      }
 }
 
 @media (min-width:800px){
     .Historia{
         position: relative;
-     bottom: 10em;   
+        margin-top: -10em;
+       
     }
-   
+    
+#datesClub{
+    margin-bottom: -40em;
+    margin-top: 12em;
+}
 }
 
 @media (min-width:1105px){
 #players{
     top: 52em;
 }
-#datesClub{
-    top: 14em;
-}
+
 }
 @media (min-width: 1335px){
   
@@ -198,7 +211,8 @@ text-decoration: underline;
         
     }
 #datesClub{
-    top: 11em;
+    margin-bottom: -40em;
+    margin-top: 6em;
 }
 #titleDatesClub{
     bottom:0.5em
