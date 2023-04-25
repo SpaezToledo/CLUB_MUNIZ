@@ -19,7 +19,7 @@
 
 #postTitle{
     position: relative;
-    top: 0vh;
+    margin-bottom: 1em;
     font-size: 30px;
     font-family: sans-serif;
     font-weight: 800;
@@ -46,7 +46,7 @@
 
 #infTitle{
     position: relative;
-    top: 3em;
+    top: 2em;
    
     font-size: 30px;
     font-family: sans-serif;
