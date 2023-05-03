@@ -90,12 +90,12 @@ right:10em;
 
 @media (min-width: 1335px){
     .carousel{
-        width:80em;
+        width:60em;
         
     }
     .d-block{
         position: relative;
-        left: 35.4em;
+        left: 25.4em;
         width: 18vh;
        top: 0;
     }
@@ -111,4 +111,10 @@ right:16em;
         left: 16em;
     }
     
+}
+
+@media (min-width: 1600px){
+.d-block{
+   left: 24.5em;
+}
 }

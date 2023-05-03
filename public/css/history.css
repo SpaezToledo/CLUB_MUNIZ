@@ -10,8 +10,19 @@
     position: relative;
     
 top: 40em;
-    font-family: sans-serif;
-    font-weight: 600;
+
+    font-weight: 500;
+}
+
+#titleHistory {
+ 
+    position: relative;
+
+    font-size: 30px;
+   
+    font-weight: 800;
+ text-decoration: underline ;
+
 }
 
 
@@ -20,24 +31,11 @@ top: 40em;
     position: relative;
 
     font-size: 30px;
-    font-family: sans-serif;
-    font-weight: 800;
- text-decoration: underline ;
-
-}
-
-
-#titleHistory {
  
-    position: relative;
-
-    font-size: 30px;
-    font-family: sans-serif;
     font-weight: 800;
  text-decoration: underline ;
 
 }
-
 
 
 
@@ -47,8 +45,8 @@ top: 40em;
     position: relative;
     justify-content: center;
     top: 40em;
-    font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+
     height: 100vh;
     align-content: flex-start
 }
@@ -58,10 +56,35 @@ top: 40em;
     position: relative;
 
     font-size: 30px;
-    font-family: sans-serif;
+
     font-weight: 800;
 text-decoration: underline;
 
+}
+
+#datesClub{
+    text-align: center;
+    position: relative;
+ 
+    
+    font-weight: 500;
+    height: 39vh;
+    margin-top: 18em;
+    margin-bottom: -28em;
+}
+
+@media (min-width:409px) {
+    #datesClub{
+        margin-top: 10em;
+        margin-bottom: -30em;
+    }
+}
+
+@media (min-width:555px){
+    #datesClub{
+        margin-top: 5em;
+        margin-bottom: -35em;
+    }
 }
 
 @media (min-width: 1035px) {
@@ -70,17 +93,6 @@ text-decoration: underline;
     }  
 }
 
-
-#datesClub{
-    text-align: center;
-    position: relative;
- 
-    font-family: sans-serif;
-    font-weight: 600;
-    height: 39vh;
-    margin-top: 12em;
-    
-}
 
 #titleDatesClub{
  
@@ -122,7 +134,7 @@ text-decoration: underline;
     color: #333;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    top: 36.5em;
+    top: 36em;
     
 }
 
@@ -152,7 +164,7 @@ text-decoration: underline;
     #players{
         margin-left: 4em;
         margin-right: 4em;
-        top: 50em;
+        top: 52em;
     }
     #titlePlayers{
         bottom: 0.5em;
@@ -189,8 +201,22 @@ text-decoration: underline;
 }
 
 }
+
+@media (min-width:1140px){
+    #history{
+        margin-left: 12em;
+        margin-right: 12em;
+    }
+    #players{
+        margin-left: 12em;
+        margin-right: 12em;
+    }
+}
 @media (min-width: 1335px){
-  
+    #history{
+        margin-left: 20em;
+        margin-right: 20em;
+    }
     #mostrar-texto{
        top: 30.5em
     }
@@ -215,7 +241,7 @@ text-decoration: underline;
     margin-top: 6em;
 }
 #titleDatesClub{
-    bottom:0.5em
+    bottom:0em
 }
 #titleTotal{
     position: relative;

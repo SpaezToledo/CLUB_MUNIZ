@@ -1,7 +1,7 @@
 .grid-post{
     position: relative;
     display: grid;
-   top: 34em;
+   top: 30em;
 
 }
 
@@ -32,7 +32,7 @@
 .grid-pib{
     position: relative;
     display: grid;
-  top:26em ;
+  top:24em ;
   justify-items:center
 }
 

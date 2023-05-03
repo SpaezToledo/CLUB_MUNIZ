@@ -1,6 +1,6 @@
 #yt{
     position: relative;
-    top: 24em;
+    top: 20em;
 }
 
 .grid-tv{
@@ -48,7 +48,7 @@ button {
     background: linear-gradient(90deg, transparent, #D21018);
     animation: btn-anim1 1s linear infinite;
     box-shadow: 0 0 20px #D21018;
-top: 1.5em;
+top: 3.2em;
 }
 
 button:hover {
@@ -116,7 +116,7 @@ border-radius: 5px;
     iframe{
         position: relative;
         grid-column-start: 1;
-        width: 80em;
+        width: 65em;
         height: 40em
     }
     

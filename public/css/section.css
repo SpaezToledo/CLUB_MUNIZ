@@ -26,7 +26,7 @@
 #ray{
 grid-column-start: 2;
 position: relative;
-top: 0.5em;
+top: 2em;
 width: 10em;
 }
 
@@ -165,7 +165,7 @@ top: 12em;
         }
         #ray{
             width: 12.5em;
-           top: 3.6em;
+           top:4em;
             }
 }
 
@@ -220,6 +220,9 @@ top: 12em;
    #shield{
     width: 25em;
    }
+   #ray{
+    top: 5em;
+   }
    #lastImg{
     width: 25em;
    }
@@ -261,7 +264,7 @@ top: 12em;
 
 #team{
     position: relative;
-   width: 80.3em;
+   width: 60.3em;
     opacity: .7;
     grid-column-start: 1;
     border: 2px solid #D21018;
@@ -275,4 +278,11 @@ top: 12em;
 }
 
 
+}
+
+
+@media (min-width: 1600px){
+    #ray{
+        top: 4.8em;
+       }
 }

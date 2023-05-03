@@ -1,12 +1,9 @@
 footer{
     position: relative;
    top: 91em;
-   
-}
-
-.grid-footer{
   
 }
+
 
 .gridf-center{
    display: grid;
@@ -23,7 +20,7 @@ justify-content: center;
     width:43vh;
     background-color: #A21F24;
     height: 110vh;
-    bottom: 58em; 
+    bottom: 57em; 
     z-index:2;  
 }
 
@@ -118,7 +115,7 @@ justify-content: center;
 
 #separatorLineFooter{
     background-color: white;
-    width: 100vh;
+    width: 90vh;
     height: 2px;
     bottom:100em;
     
@@ -263,6 +260,8 @@ bottom: 58.8em;
     
 }
 
+
+
 @media (min-width: 1335px){
     footer{
         position: relative;
@@ -300,10 +299,7 @@ bottom: 58.8em;
     #sponsorFont{
        top: -60em;
     }
-    #sponsor{
-       
-    }
-    
+  
     
     #copy {
         position: relative;
@@ -367,20 +363,23 @@ bottom: 58.8em;
 
 top: -52.6em;
     
-        width:143.5vh;
+       width: 112vh;
   
     }
     
   
     #secondBackgroundFooter{
         position: relative;
-        width:143.5vh;
+        width:112vh;
         background-color:#6C1115;
         height: 30vh;
        
        z-index: 2;
     }
  #developing{
-    left: 70em;
+    left: 54em;
+ }
+ #copy{
+    left: 1.5em;
  }
 }
