@@ -7,9 +7,14 @@
       }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/views/home.ejs$1"
-      }
-    ]
+        {
+          "src": "/(.*)",
+          "dest": "app.js",
+          "external": true,
+          "headers": {
+            "host": "https://club-muniz.vercel.app/",
+            "x-forwarded-port": "2000"
+          }
+        }
+      ]
   }
