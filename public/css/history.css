@@ -135,7 +135,7 @@ text-decoration: underline;
     color: #333;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    top: 36em;
+    top: 34em;
     
 }
 
@@ -182,6 +182,7 @@ text-decoration: underline;
      #Historia{
          margin-bottom: -50em;
      }
+   
 }
 
 @media (min-width:800px){
