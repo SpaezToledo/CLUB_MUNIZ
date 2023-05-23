@@ -220,7 +220,7 @@ bottom: 56.5em;
     #developing {
         position: relative;
     
-       left: 24em;
+       left: 29em;
         top: 3.5em;
     }
     
@@ -325,7 +325,7 @@ bottom: 56.5em;
     #developing {
         position: relative;
         top: 4.8em;
-       left: 33em;
+       left: 37em;
        top: -0.1em;
     }
     
@@ -335,7 +335,7 @@ bottom: 56.5em;
 
   
         position: relative;
-        top: 8.8vh;
+        top: 8vh;
         left: 2.5vh;
     }
     
@@ -384,7 +384,7 @@ top: -52.6em;
     }
  #developing{
     left: 54em;
-    top: 4em;
+    top: 4.2em;
  }
  #copy{
     left: 1.5em;
@@ -397,9 +397,11 @@ top: -52.6em;
     .fa-tiktok{
        
         top: 1.6em;
+        left: 5em;
     }
 
 #contactUs{
     top: 1.3em;
+    left: 30em;
 }
 }
