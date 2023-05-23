@@ -69,7 +69,7 @@ justify-content: center;
     color: white;
     font-weight: 700;
     position: relative;
-    top: 8.8vh;
+    top: 4vh;
     left: 2.5vh;
 }
 
@@ -81,7 +81,7 @@ justify-content: center;
     color: white;
     font-size: 27px;
     position: relative;
-    left:14vh;
+    left:10vh;
     width: 4.8vh;
     top: 3.2vh;
 }
@@ -93,8 +93,8 @@ justify-content: center;
     color: white;
     font-weight: 700;
     position: relative;
-    top: 4vh;
-    left: 25vh;
+    top: 5vh;
+    left: 20vh;
     text-transform: uppercase;
 }
 
@@ -104,7 +104,7 @@ justify-content: center;
     position: relative;
    
     width: 30vh;
-    bottom:14em;
+    bottom:5.5em;
     z-index:3;
 }
  #top{
@@ -117,7 +117,7 @@ justify-content: center;
     background-color: white;
     width: 90vh;
     height: 2px;
-    bottom:100em;
+    bottom:95em;
     
     z-index:3;
     
@@ -127,7 +127,7 @@ justify-content: center;
 
 
 #sponsor{
-    bottom: 92em;
+    bottom: 89em;
     
     z-index:3;
     position: relative;
@@ -141,7 +141,7 @@ justify-content: center;
     font-weight: 800;
     letter-spacing: 0;
     line-height: 44px;
-bottom: 58.8em;
+bottom: 56.5em;
     z-index: 3;
     position: relative;
  
@@ -204,7 +204,7 @@ bottom: 58.8em;
     
     #copy {
         position: relative;
-        left: 1em;
+        left: 0.2em;
         display: flex;
         justify-content: space-between;
         width: 26em;
@@ -213,15 +213,15 @@ bottom: 58.8em;
         font-weight: 300;
         line-height: 30px;
         color: white;
-        top: 3em;
+       
     }
     
     
     #developing {
         position: relative;
-        top: 4.8em;
-       left: 37em;
-        
+    
+       left: 24em;
+        top: 3.5em;
     }
     
     
@@ -242,9 +242,9 @@ bottom: 58.8em;
         color: white;
         font-size: 27px;
         position: relative;
-        left:14vh;
+        left:20vh;
         width: 4.8vh;
-        top: 4vh;
+        top: 2vh;
     }
     
     
@@ -253,8 +253,8 @@ bottom: 58.8em;
         font-size: 14px;
       
         position: relative;
-        top: 1vh;
-        left: 42vh;
+      top: -1em;
+        left: 50vh;
        
     }
     
@@ -278,6 +278,9 @@ bottom: 58.8em;
         z-index:2;  
     }
     
+    #shieldFooter{
+        top: 2em;
+    }
   
     #secondBackgroundFooter{
         position: relative;
@@ -293,13 +296,16 @@ bottom: 58.8em;
         bottom: 100em;
     }
     #separatorLineFooter{
-        top: -105em;
+        top: -94em;
     }
 
     #sponsorFont{
-       top: -60em;
+       top: -55.8em;
     }
   
+    #sponsor{
+        top: -87em;
+    }
     
     #copy {
         position: relative;
@@ -312,15 +318,15 @@ bottom: 58.8em;
         font-weight: 300;
         line-height: 30px;
         color: white;
-        top: 3em;
+      top: -2em;
     }
     
     
     #developing {
         position: relative;
         top: 4.8em;
-       left: 37em;
-        
+       left: 33em;
+       top: -0.1em;
     }
     
     
@@ -341,9 +347,9 @@ bottom: 58.8em;
         color: white;
         font-size: 27px;
         position: relative;
-        left:14vh;
+        left:20vh;
         width: 4.8vh;
-        top: 4vh;
+        top: 2vh;
     }
     
     
@@ -352,8 +358,8 @@ bottom: 58.8em;
         font-size: 14px;
       
         position: relative;
-        top: 1vh;
-        left: 42vh;
+        
+        left: 50vh;
        
     }
 }
@@ -362,7 +368,7 @@ bottom: 58.8em;
     #firstBackgroundFooter{
 
 top: -52.6em;
-    
+    height: 50.1em;
        width: 112vh;
   
     }
@@ -378,8 +384,22 @@ top: -52.6em;
     }
  #developing{
     left: 54em;
+    top: 4em;
  }
  #copy{
     left: 1.5em;
+    top: 2.5em;
  }
+ .fa-youtube,
+    .fa-instagram,
+    .fa-square-facebook,
+    .fa-twitter,
+    .fa-tiktok{
+       
+        top: 1.6em;
+    }
+
+#contactUs{
+    top: 1.3em;
+}
 }

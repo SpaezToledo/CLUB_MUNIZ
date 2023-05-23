@@ -6,7 +6,7 @@
 #contactBox{
     display: flex;
 background-color: black;
-height: 50vh;
+height: 60vh;
 position: relative;
 top: 33em;
 width: 43vh;
@@ -45,8 +45,7 @@ margin-top: 5em;
 
 #emailP {
     position: relative;
-    
-   
+    right: 0.5em;
     font-family: sans-serif;
     font-weight: 700;
     color: white;
