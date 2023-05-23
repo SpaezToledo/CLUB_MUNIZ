@@ -181,3 +181,22 @@ z-index: 1;
     }
     
 }
+
+
+@media screen and (max-height: 1136px){
+    #contactBox{
+     
+    height: 70vh;
+ 
+    top: 33em;
+
+    margin-top: 5em;
+    } 
+    #emailP{
+        right:3.6em;
+    }
+    #contact h2{
+        right: 6vh;
+        bottom: 2.8vh;
+    }
+}

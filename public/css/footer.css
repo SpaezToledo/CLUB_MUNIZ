@@ -405,3 +405,40 @@ top: -52.6em;
     left: 30em;
 }
 }
+
+
+@media screen and (max-height: 605px) {
+    #firstBackgroundFooter{
+            height:46.1em;
+            }
+            #sponsor{
+                width: 10em;
+            }
+            #sponsorFont{
+                top: -55em;
+            }
+            #secondBackgroundFooter{
+                height: 52vh;
+            }
+            #followUs{
+                left: 5em;
+            }
+            .fa-youtube,
+    .fa-instagram,
+    .fa-square-facebook,
+    .fa-twitter,
+    .fa-tiktok{
+       left: 1.5em;
+    }
+    #contactUs{
+        left: 3.8em;
+    }
+    #copy{
+        width: 9em;
+        left: 2.6em;
+    }
+    #developing{
+        left: 1.5em;
+        top: 8em;
+    }
+  }
