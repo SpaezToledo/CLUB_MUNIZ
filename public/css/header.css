@@ -122,7 +122,7 @@
        
     }
     #mail{
-        bottom: 3.2em;
+     margin-top: -3em;
         left: 4.5em;
     } 
     .fa-phone{
@@ -206,7 +206,7 @@
        
     }
     #mail{
-        bottom: 3.2em;
+      margin-top: -3em;
     } 
     .fa-phone{
         right:5.5em
@@ -228,7 +228,7 @@
        
     }
     #mail{
-        bottom: 3.2em;
+      margin-top: -3em;
     } 
     .fa-phone{
         right:5.5em
