@@ -70,7 +70,7 @@ text-decoration: underline;
     font-weight: 500;
     height: 39vh;
     margin-top: 32em;
-    margin-bottom: 5em;
+    
 }
 
 @media (min-width:409px) {
@@ -80,10 +80,10 @@ text-decoration: underline;
     }
 }
 
-@media (min-width:555px){
+@media (min-width:449px){
     #datesClub{
-        margin-top: 22em;
-   
+        margin-top: 25em;
+   margin-bottom: -30em;
     }
 
 }
@@ -153,7 +153,12 @@ text-decoration: underline;
     display: block; /* Muestra el elemento cuando se agrega la clase "mostrar" */
    
   }
-
+@media(min-width:600px){
+    #datesClub{
+        margin-top: 20em;
+   margin-bottom: -34em;
+    }
+}
 @media (min-width:769px){
    
     #history{
@@ -171,9 +176,9 @@ text-decoration: underline;
         bottom: 0.5em;
     }
     #datesClub{
+        margin-top:32em;
+   margin-bottom: 16em;
         
-        margin-top: 30em;
-        margin-bottom: 10em;
     }
  
     #mostrar-texto{
@@ -225,7 +230,10 @@ text-decoration: underline;
     #Historia{
         margin-bottom: -30em;
     }
-      
+      #datesClub{
+        margin-top: 28em;
+        margin-bottom:2em
+      }
 }
 @media (min-width:1600px){
     #history{
@@ -251,6 +259,7 @@ text-decoration: underline;
 }
 #total{
     top:3em;
+ 
 }
 #Historia{
     margin-bottom: -30em;

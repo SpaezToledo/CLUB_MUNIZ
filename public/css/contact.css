@@ -96,9 +96,9 @@ z-index: 1;
     }
 }
 @media (min-width:769px){
-    #contactBox{
-        margin-top: 14em;
-    }
+#contactBox{
+    margin-top: 16em;
+}
 }
 @media (min-width: 800px){
    
