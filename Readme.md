@@ -3,7 +3,8 @@ Proyecto dedicado al Club Social Cultural y Deportivo Muñiz realizado con HTML,
 <img src="https://github.com/SpaezToledo/Muniz/blob/main/public/img/Escudo.png" width="300"/>
 
 
-> ## Run:
+> ## Run: https://munizproject.up.railway.app/
+Or
 > ###### -npm i
 > ###### -npm test
 
